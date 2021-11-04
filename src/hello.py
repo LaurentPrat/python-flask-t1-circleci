@@ -1,6 +1,12 @@
-from flask import Flask
+"""
+set FLASK_APP=./src/hello.py
+flask run
 
-app = Flask(__name__)
+"""
+
+import flask
+
+app = flask.Flask(__name__)
 
 
 @app.route("/")
